@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('../fonts/AcuminPro-BoldItalic.eot');
+    src: url('../fonts/AcuminPro-BoldItalic.eot') format('embedded-opentype'),
+        url('../fonts/AcuminPro-BoldItalic.woff2') format('woff2'),
+        url('../fonts/AcuminPro-BoldItalic.woff') format('woff'),
+        url('../fonts/AcuminPro-BoldItalic.ttf') format('truetype'),
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+

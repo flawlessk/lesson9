@@ -1,7 +1,6 @@
 body{
     max-width: 1920px;
     width: 100%;
-    /* background-color:lightgrey; */
 }
 .container{
     max-width: 1318px;
@@ -10,7 +9,6 @@ body{
 }
 .twoboxes{
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
 }
 .box1{
@@ -18,6 +16,10 @@ body{
     height: 478px;
     background-color: #F8F8F8;
     padding: 35px;
+}
+.article{
+    font-family: 'Acumin Pro';
+    font-size: 26px;
 }
 .article::before{
     content: '';
@@ -30,9 +32,18 @@ body{
 }
 .text1{
     padding: 35px 0 10px 0;
+    font-family: 'Acumin Pro';
+    font-size: 13px;
+    opacity: 24%;
 }
 .text2{
     padding-bottom: 10px;
+    font-family: 'Acumin Pro';
+    font-size: 20px;
+}
+.text3{
+    font-family: 'Acumin Pro';
+    font-size: 15px;
 }
 .box2{
     position: relative;
@@ -48,18 +59,27 @@ body{
 }
 .text-on-pic1{
     padding: 0 0 10px 0;
+    font-family: 'Acumin Pro';
+    font-size: 15px;
+    opacity: 35%;
+    color: #FCFCFC;
 }
 .text-on-pic2{
     padding: 0 0 15px 0;
+    font-family: 'Acumin Pro';
+    font-size: 32px;
+    color: #FCFCFC;
 }
 .text-on-pic3{
-    /* font-size: 10px; */
+    font-family: 'Acumin Pro';
+    font-size: 15px;
+    opacity: 57%;
+    color: #FCFCFC;
 }
 .anotherbox{
     width: 1318px;
     height: 423px;
     display: flex;
-    /* justify-content: center; */
 }
 .views{
     width: 377px;
@@ -67,6 +87,8 @@ body{
 }
 .article2{
     padding: 35px 0 40px 0;
+    font-family: 'Acumin Pro';
+    font-size: 26px;
 }
 .article2::before{
     content: '';
@@ -84,18 +106,39 @@ body{
 }
 .img-text1{
     padding: 20px 15px;
+    font-family: 'Acumin Pro';
+    font-size: 20px;
 }
 .img-text2{
     padding: 0 15px 0 15px;
+    font-family: 'Acumin Pro';
+    font-size: 15px;
 }
 .one{
     width: 376px;
 }
 .one-p{
     margin-bottom: 45px;
+    font-family: 'Acumin Pro';
+    font-size: 22px;
+    display: inline-block;
+    padding-right: 20px;
+}
+.one-p-c{
+    display: inline-block;
+    font-family: 'Acumin Pro';
+    font-size: 18px;
+    opacity: 27%;   
 }
 .one-p1{
     margin-bottom: 15px;
+    font-family: 'Acumin Pro';
+    font-size: 16px;
+}
+.one-p2{
+    font-family: 'Acumin Pro';
+    font-size: 15px;
+    opacity: 58%;
 }
 .one-p::before{
     content: '';
@@ -109,7 +152,6 @@ body{
 footer{
     max-width: 1920px;
     display: flex;
-
 }
 .three-boxes{
     display: flex;
@@ -122,17 +164,24 @@ footer{
 }
 .two p{
     margin-bottom: 15px;
+    font-family: 'Acumin Pro';
+    font-size: 15px;
 }
 .three{
     padding-right: 130px;
 }
 .three p{
     margin-bottom: 15px;
+    font-family: 'Acumin Pro';
+    font-size: 15px;
 }
 .four p{
     margin-bottom: 15px;
+    font-family: 'Acumin Pro';
+    font-size: 15px;
 }
 .four img{
     margin: 0 5px 15px 5px;
+    opacity: 8%;
 }
     
